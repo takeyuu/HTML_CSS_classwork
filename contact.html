@@ -8,6 +8,8 @@
     <title>株式会社DIVE</title>
   </head>
   <body>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+    </script>
     <div class="container">
       <header class="header clearfix">
         <a href="index.html">
@@ -93,5 +95,12 @@
         <p>Copyright © 2018 DIVE INC All RIGHTS RESERVED.</p>
       </footer>
     </div>
+    <script type="text/javascript">
+      $(function() {
+        $('input').on('click', function() {
+          $(this).css('background-color', '#fc6f6f');
+        });
+      });
+    </script>
   </body>
 </html>
